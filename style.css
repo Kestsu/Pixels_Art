@@ -1,0 +1,25 @@
+
+
+.color {
+    display: inline-block;
+    border: black solid 1px;
+}
+
+#primeiraCor{
+    background-color: red;
+}
+
+#segundaCor{
+    background-color: greenyellow;
+}
+
+#terceiraCor{
+    background-color: aqua;
+}
+
+#quartaCor{
+    background-color: darkviolet;
+}
+
+#color-palette{
+}
