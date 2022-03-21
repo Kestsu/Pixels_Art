@@ -3,23 +3,29 @@
 .color {
     display: inline-block;
     border: black solid 1px;
+    padding: 8%;
 }
 
-#primeiraCor{
-    background-color: red;
+#black{
+    background-color: black;
 }
 
-#segundaCor{
+#greenyellow{
     background-color: greenyellow;
 }
 
-#terceiraCor{
+#aqua{
     background-color: aqua;
 }
 
-#quartaCor{
+#darkviolet{
     background-color: darkviolet;
 }
 
 #color-palette{
+
+}
+#mesa{
+    border: 1px;
+    border-color: black;
 }
