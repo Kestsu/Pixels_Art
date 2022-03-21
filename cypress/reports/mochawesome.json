@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 0,
-    "start": "2022-03-21T20:05:04.136Z",
-    "end": "2022-03-21T20:05:09.276Z",
-    "duration": 5140,
+    "start": "2022-03-21T22:31:05.746Z",
+    "end": "2022-03-21T22:31:10.281Z",
+    "duration": 4535,
     "testsRegistered": 41,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "99655928-cc28-49e9-977b-5e84298c9062",
+      "uuid": "d45ebdc1-21fa-4bf7-ba24-3661ac511427",
       "title": "",
       "fullFile": "cypress/integration/project.spec.js",
       "file": "cypress/integration/project.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4999da71-0a79-4654-b310-38e2240be57d",
+          "uuid": "fe5671e3-c733-4a0e-9c25-348c636b6aa2",
           "title": "1 - Adicione à página o título \"Paleta de Cores\".",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "fullTitle": "1 - Adicione à página o título \"Paleta de Cores\". Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "timedOut": null,
-              "duration": 503,
+              "duration": 431,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -47,12 +47,12 @@
               "context": null,
               "code": "cy.get('h1#title').should('contain.text', 'Paleta de Cores');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "f29a8044-90a6-4022-9e5c-1dcc9bc80237",
-              "parentUUID": "4999da71-0a79-4654-b310-38e2240be57d",
+              "uuid": "8b7fb5a8-448f-4888-a1fb-e87b7a70cd3f",
+              "parentUUID": "fe5671e3-c733-4a0e-9c25-348c636b6aa2",
               "isHook": false,
               "skipped": false
             }
@@ -60,17 +60,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f29a8044-90a6-4022-9e5c-1dcc9bc80237"
+            "8b7fb5a8-448f-4888-a1fb-e87b7a70cd3f"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 503,
+          "duration": 431,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "da32fe71-413c-4406-8bf3-75cf79923110",
+          "uuid": "f696044e-7bcf-486a-b9bc-55d1d8c24053",
           "title": "2 - Adicione à página uma paleta de quatro cores distintas.",
           "fullFile": "",
           "file": "",
@@ -81,7 +81,7 @@
               "title": "A paleta de cores deve ser um elemento com `id` denominado `color-palette` e ter mais de 0px de altura e de largura.",
               "fullTitle": "2 - Adicione à página uma paleta de quatro cores distintas. A paleta de cores deve ser um elemento com `id` denominado `color-palette` e ter mais de 0px de altura e de largura.",
               "timedOut": null,
-              "duration": 508,
+              "duration": 388,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -90,12 +90,12 @@
               "context": null,
               "code": "cy.get('#color-palette').should('be.visible');\ncy.get('#color-palette').children('.color');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "02455a2c-84bf-4bd0-9b29-76e80d348602",
-              "parentUUID": "da32fe71-413c-4406-8bf3-75cf79923110",
+              "uuid": "2736b171-0931-4bca-9f0e-8fed6fa7a12c",
+              "parentUUID": "f696044e-7bcf-486a-b9bc-55d1d8c24053",
               "isHook": false,
               "skipped": false
             },
@@ -112,8 +112,8 @@
               "context": null,
               "code": "cy.get('.color').should('have.length', 4).then(function (colors) {\n  for (var i = 0; i < colors.length; i++) {\n    cy.wrap(colors[i]).should('be.visible');\n  }\n});",
               "err": {},
-              "uuid": "24ce1f4f-be79-4836-b9d2-ed8478b4497f",
-              "parentUUID": "da32fe71-413c-4406-8bf3-75cf79923110",
+              "uuid": "bcc675ca-c6d7-4f07-924b-eb8375b71dfe",
+              "parentUUID": "f696044e-7bcf-486a-b9bc-55d1d8c24053",
               "isHook": false,
               "skipped": true
             },
@@ -130,8 +130,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).should('have.class', 'color').and('not.have.css', 'background-color', WHITE);\n  cy.wrap(color).should('have.css', 'background-color');\n});",
               "err": {},
-              "uuid": "38e30316-c128-4147-a0a6-392ea07b3a9a",
-              "parentUUID": "da32fe71-413c-4406-8bf3-75cf79923110",
+              "uuid": "7fdb9084-2f31-4699-a5f0-d8f628467184",
+              "parentUUID": "f696044e-7bcf-486a-b9bc-55d1d8c24053",
               "isHook": false,
               "skipped": true
             },
@@ -148,8 +148,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).and('have.css', 'border', \"1px solid \".concat(BLACK)).and('have.class', 'color');\n});",
               "err": {},
-              "uuid": "a1bde294-01b1-4de0-bbd1-a2d958d7a23e",
-              "parentUUID": "da32fe71-413c-4406-8bf3-75cf79923110",
+              "uuid": "b8e61d8c-d893-42d3-b522-8880cfeceb73",
+              "parentUUID": "f696044e-7bcf-486a-b9bc-55d1d8c24053",
               "isHook": false,
               "skipped": true
             },
@@ -166,8 +166,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  for (var index = 1; index < colors.length; index += 1) {\n    var currentColor = colors[index];\n    var previousColor = colors[index - 1];\n    cy.wrap(currentColor).should('be.onTheRightOf', previousColor).and('be.horizontallyAlignedWith', previousColor);\n  }\n});",
               "err": {},
-              "uuid": "88b78740-ecbf-4465-abb8-cff2079905b7",
-              "parentUUID": "da32fe71-413c-4406-8bf3-75cf79923110",
+              "uuid": "37bd7aa7-fd00-45ae-8349-2cf69af051a3",
+              "parentUUID": "f696044e-7bcf-486a-b9bc-55d1d8c24053",
               "isHook": false,
               "skipped": true
             },
@@ -184,8 +184,8 @@
               "context": null,
               "code": "cy.get('h1#title').then(function (title) {\n  cy.get('#color-palette').should('be.belowOf', title);\n});",
               "err": {},
-              "uuid": "b6006e34-b82c-4b57-85dc-2240b41e1a50",
-              "parentUUID": "da32fe71-413c-4406-8bf3-75cf79923110",
+              "uuid": "25b565e2-090b-4991-95a1-7e71160abe42",
+              "parentUUID": "f696044e-7bcf-486a-b9bc-55d1d8c24053",
               "isHook": false,
               "skipped": true
             },
@@ -202,8 +202,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var allColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  cy.log(allColors);\n  var uniqColors = (0, _toConsumableArray2[\"default\"])(new Set(allColors));\n  cy.log(uniqColors);\n  expect(allColors.length).to.eq(uniqColors.length);\n});",
               "err": {},
-              "uuid": "db59bbc5-6ea8-4d32-86a5-bfbb7a133d29",
-              "parentUUID": "da32fe71-413c-4406-8bf3-75cf79923110",
+              "uuid": "0001787b-09ac-482b-92ea-3ee1fd3545e3",
+              "parentUUID": "f696044e-7bcf-486a-b9bc-55d1d8c24053",
               "isHook": false,
               "skipped": true
             }
@@ -211,24 +211,24 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "02455a2c-84bf-4bd0-9b29-76e80d348602"
+            "2736b171-0931-4bca-9f0e-8fed6fa7a12c"
           ],
           "pending": [],
           "skipped": [
-            "24ce1f4f-be79-4836-b9d2-ed8478b4497f",
-            "38e30316-c128-4147-a0a6-392ea07b3a9a",
-            "a1bde294-01b1-4de0-bbd1-a2d958d7a23e",
-            "88b78740-ecbf-4465-abb8-cff2079905b7",
-            "b6006e34-b82c-4b57-85dc-2240b41e1a50",
-            "db59bbc5-6ea8-4d32-86a5-bfbb7a133d29"
+            "bcc675ca-c6d7-4f07-924b-eb8375b71dfe",
+            "7fdb9084-2f31-4699-a5f0-d8f628467184",
+            "b8e61d8c-d893-42d3-b522-8880cfeceb73",
+            "37bd7aa7-fd00-45ae-8349-2cf69af051a3",
+            "25b565e2-090b-4991-95a1-7e71160abe42",
+            "0001787b-09ac-482b-92ea-3ee1fd3545e3"
           ],
-          "duration": 508,
+          "duration": 388,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "6971bd5d-b4cb-4f11-a070-422f085a68b4",
+          "uuid": "745df0a6-016b-4424-a39b-ef175ce52d37",
           "title": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores.",
           "fullFile": "",
           "file": "",
@@ -239,7 +239,7 @@
               "title": "Verifica se a primeira cor da paleta é preta",
               "fullTitle": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores. Verifica se a primeira cor da paleta é preta",
               "timedOut": null,
-              "duration": 403,
+              "duration": 391,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -248,12 +248,12 @@
               "context": null,
               "code": "cy.get('.color').first().should('have.css', 'background-color', BLACK);",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "4bf4c659-a70c-4da6-ae6c-8af3814a8341",
-              "parentUUID": "6971bd5d-b4cb-4f11-a070-422f085a68b4",
+              "uuid": "3acde5b0-f24a-41d5-a775-68282efa0918",
+              "parentUUID": "745df0a6-016b-4424-a39b-ef175ce52d37",
               "isHook": false,
               "skipped": false
             },
@@ -270,8 +270,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(1).should('have.css', 'background-color');\ncy.get('.color').eq(2).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(2).should('have.css', 'background-color');\ncy.get('.color').eq(3).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(3).should('have.css', 'background-color');",
               "err": {},
-              "uuid": "b8b0f5f6-4dfa-4594-afc2-e18cda169b5e",
-              "parentUUID": "6971bd5d-b4cb-4f11-a070-422f085a68b4",
+              "uuid": "6c21a3f0-e1e4-4d8b-8170-f8c2aeb6d124",
+              "parentUUID": "745df0a6-016b-4424-a39b-ef175ce52d37",
               "isHook": false,
               "skipped": true
             }
@@ -279,19 +279,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "4bf4c659-a70c-4da6-ae6c-8af3814a8341"
+            "3acde5b0-f24a-41d5-a775-68282efa0918"
           ],
           "pending": [],
           "skipped": [
-            "b8b0f5f6-4dfa-4594-afc2-e18cda169b5e"
+            "6c21a3f0-e1e4-4d8b-8170-f8c2aeb6d124"
           ],
-          "duration": 403,
+          "duration": 391,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "51e6edd3-2c0d-4b5b-8473-93a6706d8e7d",
+          "uuid": "eb99c8ab-15ab-4a57-a182-41a164a6d846",
           "title": "4 - Adicione à página um quadro de pixels, com 25 pixels.",
           "fullFile": "",
           "file": "",
@@ -302,7 +302,7 @@
               "title": "Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "fullTitle": "4 - Adicione à página um quadro de pixels, com 25 pixels. Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "timedOut": null,
-              "duration": 403,
+              "duration": 352,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -311,12 +311,12 @@
               "context": null,
               "code": "cy.get('#pixel-board').should('be.visible');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "ce3ebe17-affe-4d8f-92ee-0ecd362dadb2",
-              "parentUUID": "51e6edd3-2c0d-4b5b-8473-93a6706d8e7d",
+              "uuid": "7c4cc075-5dfd-4e20-81e7-f3d511ae3c6a",
+              "parentUUID": "eb99c8ab-15ab-4a57-a182-41a164a6d846",
               "isHook": false,
               "skipped": false
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "81aa1a63-3471-45ad-a7b0-ef1cd70c36a7",
-              "parentUUID": "51e6edd3-2c0d-4b5b-8473-93a6706d8e7d",
+              "uuid": "80db43a0-7d7c-42a5-a2f7-67d10b7d5f63",
+              "parentUUID": "eb99c8ab-15ab-4a57-a182-41a164a6d846",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "4a7758ad-f223-4916-9ecd-e035ad92f78e",
-              "parentUUID": "51e6edd3-2c0d-4b5b-8473-93a6706d8e7d",
+              "uuid": "151c9247-0602-450d-971c-d75f234cb8e2",
+              "parentUUID": "eb99c8ab-15ab-4a57-a182-41a164a6d846",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "732fe158-7af5-485a-a7de-e6314d914c71",
-              "parentUUID": "51e6edd3-2c0d-4b5b-8473-93a6706d8e7d",
+              "uuid": "97ce9bb7-5c26-4efb-a25c-c44280b5862b",
+              "parentUUID": "eb99c8ab-15ab-4a57-a182-41a164a6d846",
               "isHook": false,
               "skipped": true
             }
@@ -378,21 +378,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "ce3ebe17-affe-4d8f-92ee-0ecd362dadb2"
+            "7c4cc075-5dfd-4e20-81e7-f3d511ae3c6a"
           ],
           "pending": [],
           "skipped": [
-            "81aa1a63-3471-45ad-a7b0-ef1cd70c36a7",
-            "4a7758ad-f223-4916-9ecd-e035ad92f78e",
-            "732fe158-7af5-485a-a7de-e6314d914c71"
+            "80db43a0-7d7c-42a5-a2f7-67d10b7d5f63",
+            "151c9247-0602-450d-971c-d75f234cb8e2",
+            "97ce9bb7-5c26-4efb-a25c-c44280b5862b"
           ],
-          "duration": 403,
+          "duration": 352,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "4755422b-20df-4a8c-a1ac-590f86185714",
+          "uuid": "67a09922-3ea9-4b1d-9304-6883d657162e",
           "title": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.",
           "fullFile": "",
           "file": "",
@@ -403,7 +403,7 @@
               "title": "Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "fullTitle": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel. Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "timedOut": null,
-              "duration": 389,
+              "duration": 326,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -412,12 +412,12 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n}).and(function (pixels) {\n  var rows = chunk(pixels, 5);\n  rows.forEach(function (row) {\n    for (var index = 1; index < row.length; index += 1) {\n      var current = pixels[index];\n      var previous = pixels[index - 1];\n      cy.wrap(current).should('be.onTheRightOf', previous).and('be.horizontallyAlignedWith', previous);\n    }\n  });\n  for (var index = 1; index < 5; index += 1) {\n    expect(pixels[index * 5]).to.be.belowOf(pixels[(index - 1) * 5]);\n  }\n});",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "00f8e731-ab6b-4fba-9f40-44127c00391a",
-              "parentUUID": "4755422b-20df-4a8c-a1ac-590f86185714",
+              "uuid": "49f85418-1091-4b0e-88d5-15836ce893d0",
+              "parentUUID": "67a09922-3ea9-4b1d-9304-6883d657162e",
               "isHook": false,
               "skipped": false
             },
@@ -434,8 +434,8 @@
               "context": null,
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'height', '40px').and('have.css', 'width', '40px').and('have.css', 'border', \"1px solid \".concat(BLACK));\n});",
               "err": {},
-              "uuid": "ddeb9117-d06c-44e2-9e64-05a147251168",
-              "parentUUID": "4755422b-20df-4a8c-a1ac-590f86185714",
+              "uuid": "35f31a0c-d517-4636-937f-1cb23f8b0dac",
+              "parentUUID": "67a09922-3ea9-4b1d-9304-6883d657162e",
               "isHook": false,
               "skipped": true
             }
@@ -443,19 +443,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "00f8e731-ab6b-4fba-9f40-44127c00391a"
+            "49f85418-1091-4b0e-88d5-15836ce893d0"
           ],
           "pending": [],
           "skipped": [
-            "ddeb9117-d06c-44e2-9e64-05a147251168"
+            "35f31a0c-d517-4636-937f-1cb23f8b0dac"
           ],
-          "duration": 389,
+          "duration": 326,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "b0ff0275-5686-4523-b2f3-afd177b055e7",
+          "uuid": "ef064147-04d3-42a7-9980-951606c9eea5",
           "title": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels",
           "fullFile": "",
           "file": "",
@@ -466,7 +466,7 @@
               "title": "Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "fullTitle": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "timedOut": null,
-              "duration": 387,
+              "duration": 370,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -475,12 +475,12 @@
               "context": null,
               "code": "cy.get('.selected').first().should('have.css', 'background-color', BLACK);",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "4e47a370-f1ca-4b8c-a486-865b9868efad",
-              "parentUUID": "b0ff0275-5686-4523-b2f3-afd177b055e7",
+              "uuid": "9a33e6df-0e73-4309-aeb8-6df06316a0ca",
+              "parentUUID": "ef064147-04d3-42a7-9980-951606c9eea5",
               "isHook": false,
               "skipped": false
             },
@@ -497,8 +497,8 @@
               "context": null,
               "code": "cy.get('.color:not(:first-child)').each(function (color) {\n  cy.wrap(color).should('not.have.class', 'selected');\n});",
               "err": {},
-              "uuid": "16258834-2c68-42af-a21b-30c2edf3a167",
-              "parentUUID": "b0ff0275-5686-4523-b2f3-afd177b055e7",
+              "uuid": "15b83c7a-4002-430e-904a-52a5698a056e",
+              "parentUUID": "ef064147-04d3-42a7-9980-951606c9eea5",
               "isHook": false,
               "skipped": true
             }
@@ -506,19 +506,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "4e47a370-f1ca-4b8c-a486-865b9868efad"
+            "9a33e6df-0e73-4309-aeb8-6df06316a0ca"
           ],
           "pending": [],
           "skipped": [
-            "16258834-2c68-42af-a21b-30c2edf3a167"
+            "15b83c7a-4002-430e-904a-52a5698a056e"
           ],
-          "duration": 387,
+          "duration": 370,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "1effa9e6-d9b8-4a39-bcce-a828b58a9269",
+          "uuid": "341345a2-f47f-4e7c-a8ad-e6436cb5e6e8",
           "title": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro.",
           "fullFile": "",
           "file": "",
@@ -529,7 +529,7 @@
               "title": "Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "fullTitle": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro. Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "timedOut": null,
-              "duration": 390,
+              "duration": 349,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -538,12 +538,12 @@
               "context": null,
               "code": "cy.get('.color').each(function (selectedColor, selectedColorIndex) {\n  cy.wrap(selectedColor).click();\n  cy.get('.color').each(function (color, colorIndex) {\n    if (colorIndex === selectedColorIndex) {\n      expect(color).to.have[\"class\"]('selected');\n    } else {\n      expect(color).not.to.have[\"class\"]('selected');\n    }\n  });\n});",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "6a2c3fe8-b453-4fcc-8aa4-defac5561073",
-              "parentUUID": "1effa9e6-d9b8-4a39-bcce-a828b58a9269",
+              "uuid": "5c318a66-1c2b-416c-9bbc-b9438407bb16",
+              "parentUUID": "341345a2-f47f-4e7c-a8ad-e6436cb5e6e8",
               "isHook": false,
               "skipped": false
             },
@@ -560,8 +560,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('not.have.class', 'selected');\n  });\n});",
               "err": {},
-              "uuid": "59085178-10dc-4430-b8c1-537993e50d66",
-              "parentUUID": "1effa9e6-d9b8-4a39-bcce-a828b58a9269",
+              "uuid": "4d7c7f31-7f2d-4a2f-9e5d-977cee0e8d94",
+              "parentUUID": "341345a2-f47f-4e7c-a8ad-e6436cb5e6e8",
               "isHook": false,
               "skipped": true
             }
@@ -569,19 +569,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "6a2c3fe8-b453-4fcc-8aa4-defac5561073"
+            "5c318a66-1c2b-416c-9bbc-b9438407bb16"
           ],
           "pending": [],
           "skipped": [
-            "59085178-10dc-4430-b8c1-537993e50d66"
+            "4d7c7f31-7f2d-4a2f-9e5d-977cee0e8d94"
           ],
-          "duration": 390,
+          "duration": 349,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "2b86d590-4260-4e30-9d9d-2d4b7f719770",
+          "uuid": "24771043-8558-4466-affc-b70cf91ceb0a",
           "title": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada.",
           "fullFile": "",
           "file": "",
@@ -592,7 +592,7 @@
               "title": "Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "fullTitle": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada. Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "timedOut": null,
-              "duration": 387,
+              "duration": 385,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -601,12 +601,12 @@
               "context": null,
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).click().should('have.css', 'background-color', BLACK);\n});",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "4a68afd7-dca8-457c-8f17-25fa581a7240",
-              "parentUUID": "2b86d590-4260-4e30-9d9d-2d4b7f719770",
+              "uuid": "02aebd54-a912-4f0c-85f0-218b81ca1e55",
+              "parentUUID": "24771043-8558-4466-affc-b70cf91ceb0a",
               "isHook": false,
               "skipped": false
             },
@@ -623,8 +623,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});",
               "err": {},
-              "uuid": "b3a02ab5-8b78-4bd5-9d49-462c57f9d548",
-              "parentUUID": "2b86d590-4260-4e30-9d9d-2d4b7f719770",
+              "uuid": "30e8e8e0-91db-4274-b9d0-91a5df51fd6e",
+              "parentUUID": "24771043-8558-4466-affc-b70cf91ceb0a",
               "isHook": false,
               "skipped": true
             },
@@ -641,8 +641,8 @@
               "context": null,
               "code": "var colorToPixelIndexMap = {\n  0: 6,\n  1: 8,\n  2: 16,\n  3: 18\n};\ncy.get('.color').each(function (color, index) {\n  cy.wrap(color).click();\n  var backgroundColor = color.css('background-color');\n  var clickedPixelIndex = colorToPixelIndexMap[index];\n  cy.get('.pixel').eq(clickedPixelIndex).click();\n  cy.get('.pixel').eq(clickedPixelIndex - 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 6).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 6).should('not.have.css', 'background-color', backgroundColor);\n});",
               "err": {},
-              "uuid": "9f937378-39c1-4c39-b69e-bcc2f1596cd3",
-              "parentUUID": "2b86d590-4260-4e30-9d9d-2d4b7f719770",
+              "uuid": "62c0f3e1-8364-48c3-b26e-4cf3731eacce",
+              "parentUUID": "24771043-8558-4466-affc-b70cf91ceb0a",
               "isHook": false,
               "skipped": true
             }
@@ -650,20 +650,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "4a68afd7-dca8-457c-8f17-25fa581a7240"
+            "02aebd54-a912-4f0c-85f0-218b81ca1e55"
           ],
           "pending": [],
           "skipped": [
-            "b3a02ab5-8b78-4bd5-9d49-462c57f9d548",
-            "9f937378-39c1-4c39-b69e-bcc2f1596cd3"
+            "30e8e8e0-91db-4274-b9d0-91a5df51fd6e",
+            "62c0f3e1-8364-48c3-b26e-4cf3731eacce"
           ],
-          "duration": 387,
+          "duration": 385,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "95f25f14-2b21-4f91-96a8-ce1282f71693",
+          "uuid": "622ea1f2-cf87-4df9-94a0-ff7da35004c2",
           "title": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.",
           "fullFile": "",
           "file": "",
@@ -674,7 +674,7 @@
               "title": "Verifica se o botão tem o `id` denominado `clear-board`",
               "fullTitle": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco. Verifica se o botão tem o `id` denominado `clear-board`",
               "timedOut": null,
-              "duration": 391,
+              "duration": 349,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -683,12 +683,12 @@
               "context": null,
               "code": "cy.get('#clear-board').should('be.visible');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "8fed9c28-ea8e-4a30-a82a-cfb0866023fd",
-              "parentUUID": "95f25f14-2b21-4f91-96a8-ce1282f71693",
+              "uuid": "f5060c6e-e127-41bd-b74e-5266a6f46a93",
+              "parentUUID": "622ea1f2-cf87-4df9-94a0-ff7da35004c2",
               "isHook": false,
               "skipped": false
             },
@@ -705,8 +705,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#clear-board').should('be.belowOf', palette);\n});\ncy.get('#clear-board').then(function (clearBtn) {\n  cy.get('#pixel-board').should('be.belowOf', clearBtn);\n});",
               "err": {},
-              "uuid": "8bac111b-6b97-49a3-80d9-a1cd488dfe65",
-              "parentUUID": "95f25f14-2b21-4f91-96a8-ce1282f71693",
+              "uuid": "513411e8-d0dd-4109-a135-d7c87d3d11f5",
+              "parentUUID": "622ea1f2-cf87-4df9-94a0-ff7da35004c2",
               "isHook": false,
               "skipped": true
             },
@@ -723,8 +723,8 @@
               "context": null,
               "code": "cy.get('#clear-board').should('contain.text', 'Limpar');",
               "err": {},
-              "uuid": "98c26f8b-365a-4cad-bdd2-41f97c069ca2",
-              "parentUUID": "95f25f14-2b21-4f91-96a8-ce1282f71693",
+              "uuid": "27cac467-3ef5-4a18-89a6-3c6a46d23d40",
+              "parentUUID": "622ea1f2-cf87-4df9-94a0-ff7da35004c2",
               "isHook": false,
               "skipped": true
             },
@@ -741,8 +741,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).then(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});\ncy.get('#clear-board').click();\ncy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'background-color', WHITE);\n});",
               "err": {},
-              "uuid": "cf18086e-3843-40c6-9b87-e2ea6c6a1e25",
-              "parentUUID": "95f25f14-2b21-4f91-96a8-ce1282f71693",
+              "uuid": "814cc64e-9c8b-49e8-8c49-315cc44df990",
+              "parentUUID": "622ea1f2-cf87-4df9-94a0-ff7da35004c2",
               "isHook": false,
               "skipped": true
             }
@@ -750,21 +750,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "8fed9c28-ea8e-4a30-a82a-cfb0866023fd"
+            "f5060c6e-e127-41bd-b74e-5266a6f46a93"
           ],
           "pending": [],
           "skipped": [
-            "8bac111b-6b97-49a3-80d9-a1cd488dfe65",
-            "98c26f8b-365a-4cad-bdd2-41f97c069ca2",
-            "cf18086e-3843-40c6-9b87-e2ea6c6a1e25"
+            "513411e8-d0dd-4109-a135-d7c87d3d11f5",
+            "27cac467-3ef5-4a18-89a6-3c6a46d23d40",
+            "814cc64e-9c8b-49e8-8c49-315cc44df990"
           ],
-          "duration": 391,
+          "duration": 349,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+          "uuid": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
           "title": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.",
           "fullFile": "",
           "file": "",
@@ -775,7 +775,7 @@
               "title": "Verifica se existe um input com o id `board-size`",
               "fullTitle": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário. Verifica se existe um input com o id `board-size`",
               "timedOut": null,
-              "duration": 381,
+              "duration": 362,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -784,12 +784,12 @@
               "context": null,
               "code": "cy.get('#board-size').should('be.visible');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "8f45ee29-4e7d-4bd5-a977-b830df7c5a08",
-              "parentUUID": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+              "uuid": "c7d84282-bda2-4fff-848b-fb705ad9d6c9",
+              "parentUUID": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
               "isHook": false,
               "skipped": false
             },
@@ -806,8 +806,8 @@
               "context": null,
               "code": "cy.get('#generate-board').should('be.visible');",
               "err": {},
-              "uuid": "edb37d0d-d854-4e3d-a006-60cde851eee6",
-              "parentUUID": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+              "uuid": "e1c772d4-20f3-4271-bc55-06e46bdc4cbc",
+              "parentUUID": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
               "isHook": false,
               "skipped": true
             },
@@ -824,8 +824,8 @@
               "context": null,
               "code": "cy.get('#board-size[type=\\'number\\'][min=\\'1\\']');",
               "err": {},
-              "uuid": "0cf26870-5fcb-4411-b8ed-ee1c0f81de9b",
-              "parentUUID": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+              "uuid": "3fee7b5d-e959-459f-b8e4-842e4593f77f",
+              "parentUUID": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
               "isHook": false,
               "skipped": true
             },
@@ -842,8 +842,8 @@
               "context": null,
               "code": "cy.get('#generate-board').contains(/vqv/i);",
               "err": {},
-              "uuid": "e582e1e1-760b-4968-9e26-4ea0f32c6697",
-              "parentUUID": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+              "uuid": "82f523e5-fa5e-4e33-bb6e-47262559ef33",
+              "parentUUID": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
               "isHook": false,
               "skipped": true
             },
@@ -860,8 +860,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#board-size').should('be.belowOf', palette);\n});\ncy.get('#board-size').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "d9bc23fc-905a-4f87-b8a6-c218330c714d",
-              "parentUUID": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+              "uuid": "dbe6be2a-15c8-4624-a599-87657881ec1f",
+              "parentUUID": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
               "isHook": false,
               "skipped": true
             },
@@ -878,8 +878,8 @@
               "context": null,
               "code": "cy.get('#board-size').then(function (board) {\n  cy.get('#generate-board').should('be.onTheRightOf', board);\n});",
               "err": {},
-              "uuid": "fd632f6d-67f3-4428-84fa-28add0b41f68",
-              "parentUUID": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+              "uuid": "0d88574d-ede2-4677-b7c3-7ef202da769a",
+              "parentUUID": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
               "isHook": false,
               "skipped": true
             },
@@ -896,8 +896,8 @@
               "context": null,
               "code": "var alerted = false;\ncy.on('window:alert', function (msg) {\n  return alerted = msg;\n});\ncy.get('#generate-board').click().then(function () {\n  return expect(alerted).to.match(/Board inválido!/i);\n});",
               "err": {},
-              "uuid": "7af631e8-891c-4845-8f1a-e5a1ffceae23",
-              "parentUUID": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+              "uuid": "ae79320e-b83f-4a36-a5b0-89b205a816b6",
+              "parentUUID": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
               "isHook": false,
               "skipped": true
             },
@@ -914,8 +914,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(10);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 100);",
               "err": {},
-              "uuid": "6e8fa040-c741-46d5-9f9e-97faffd5a666",
-              "parentUUID": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+              "uuid": "b1360257-d33c-4a23-b47c-fc7c4c30ae84",
+              "parentUUID": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
               "isHook": false,
               "skipped": true
             },
@@ -932,8 +932,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(6);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 36).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "1aa586a3-a988-4cc0-8b82-8e489116b3f2",
-              "parentUUID": "f0e21fbb-6a46-4e9c-8859-65c069e51322",
+              "uuid": "2241403d-1fdb-40e7-8741-bfd557757c92",
+              "parentUUID": "c2e9cbc2-3c18-441d-8c5c-e2d71c3e4839",
               "isHook": false,
               "skipped": true
             }
@@ -941,26 +941,26 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "8f45ee29-4e7d-4bd5-a977-b830df7c5a08"
+            "c7d84282-bda2-4fff-848b-fb705ad9d6c9"
           ],
           "pending": [],
           "skipped": [
-            "edb37d0d-d854-4e3d-a006-60cde851eee6",
-            "0cf26870-5fcb-4411-b8ed-ee1c0f81de9b",
-            "e582e1e1-760b-4968-9e26-4ea0f32c6697",
-            "d9bc23fc-905a-4f87-b8a6-c218330c714d",
-            "fd632f6d-67f3-4428-84fa-28add0b41f68",
-            "7af631e8-891c-4845-8f1a-e5a1ffceae23",
-            "6e8fa040-c741-46d5-9f9e-97faffd5a666",
-            "1aa586a3-a988-4cc0-8b82-8e489116b3f2"
+            "e1c772d4-20f3-4271-bc55-06e46bdc4cbc",
+            "3fee7b5d-e959-459f-b8e4-842e4593f77f",
+            "82f523e5-fa5e-4e33-bb6e-47262559ef33",
+            "dbe6be2a-15c8-4624-a599-87657881ec1f",
+            "0d88574d-ede2-4677-b7c3-7ef202da769a",
+            "ae79320e-b83f-4a36-a5b0-89b205a816b6",
+            "b1360257-d33c-4a23-b47c-fc7c4c30ae84",
+            "2241403d-1fdb-40e7-8741-bfd557757c92"
           ],
-          "duration": 381,
+          "duration": 362,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "adf7d3c1-40a7-47c1-943c-8a28393ebeb1",
+          "uuid": "27437f20-2778-494d-b6c5-1eff4b45ca2d",
           "title": "11 - Limite o tamanho mínimo e máximo do board.",
           "fullFile": "",
           "file": "",
@@ -971,7 +971,7 @@
               "title": "Verifica se a altura máxima do board é 50",
               "fullTitle": "11 - Limite o tamanho mínimo e máximo do board. Verifica se a altura máxima do board é 50",
               "timedOut": null,
-              "duration": 405,
+              "duration": 355,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -980,12 +980,12 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(50);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "d9e24f89-d6f5-4a6e-8fdf-57f5aecae4fd",
-              "parentUUID": "adf7d3c1-40a7-47c1-943c-8a28393ebeb1",
+              "uuid": "f5b1e472-d268-4220-a795-b67291ea0d45",
+              "parentUUID": "27437f20-2778-494d-b6c5-1eff4b45ca2d",
               "isHook": false,
               "skipped": false
             },
@@ -1002,8 +1002,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(4);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "cfee9269-5d42-4867-b645-09cdb56326b2",
-              "parentUUID": "adf7d3c1-40a7-47c1-943c-8a28393ebeb1",
+              "uuid": "1daba611-246c-4154-b3ad-ef4a0fa444d3",
+              "parentUUID": "27437f20-2778-494d-b6c5-1eff4b45ca2d",
               "isHook": false,
               "skipped": true
             },
@@ -1020,8 +1020,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(51);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {},
-              "uuid": "c01bd1b5-a468-4bfc-900b-33768e274e87",
-              "parentUUID": "adf7d3c1-40a7-47c1-943c-8a28393ebeb1",
+              "uuid": "60785284-17ec-4308-aa12-3c7b96c3ad9f",
+              "parentUUID": "27437f20-2778-494d-b6c5-1eff4b45ca2d",
               "isHook": false,
               "skipped": true
             }
@@ -1029,20 +1029,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "d9e24f89-d6f5-4a6e-8fdf-57f5aecae4fd"
+            "f5b1e472-d268-4220-a795-b67291ea0d45"
           ],
           "pending": [],
           "skipped": [
-            "cfee9269-5d42-4867-b645-09cdb56326b2",
-            "c01bd1b5-a468-4bfc-900b-33768e274e87"
+            "1daba611-246c-4154-b3ad-ef4a0fa444d3",
+            "60785284-17ec-4308-aa12-3c7b96c3ad9f"
           ],
-          "duration": 405,
+          "duration": 355,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f6934778-28bd-4890-8a06-8ce3989e759c",
+          "uuid": "a89429ad-af91-41e5-92f8-0dbd73ccdd14",
           "title": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.",
           "fullFile": "",
           "file": "",
@@ -1053,7 +1053,7 @@
               "title": "Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "fullTitle": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página. Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "timedOut": null,
-              "duration": 405,
+              "duration": 339,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1062,12 +1062,12 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
-                "estack": "Uncaught SyntaxError: Unexpected token '{'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
+                "message": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
+                "estack": "Uncaught TypeError: Document.getElementById is not a function\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'\n    at http://localhost:52988/script.js:6:34",
                 "diff": null
               },
-              "uuid": "1cd95d15-83f2-4c09-bc82-62b5b6c26fda",
-              "parentUUID": "f6934778-28bd-4890-8a06-8ce3989e759c",
+              "uuid": "44bf8035-203e-46c9-95f0-1ebd91bfe7e3",
+              "parentUUID": "a89429ad-af91-41e5-92f8-0dbd73ccdd14",
               "isHook": false,
               "skipped": false
             },
@@ -1084,8 +1084,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  expect(previousColors[0]).to.eq(BLACK);\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors[0]).to.eq(BLACK);\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {},
-              "uuid": "aaa1d53b-da26-41d7-92cd-ef874895b45d",
-              "parentUUID": "f6934778-28bd-4890-8a06-8ce3989e759c",
+              "uuid": "fc850e7f-a652-41bb-acde-4ff1ed20ef7c",
+              "parentUUID": "a89429ad-af91-41e5-92f8-0dbd73ccdd14",
               "isHook": false,
               "skipped": true
             }
@@ -1093,13 +1093,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "1cd95d15-83f2-4c09-bc82-62b5b6c26fda"
+            "44bf8035-203e-46c9-95f0-1ebd91bfe7e3"
           ],
           "pending": [],
           "skipped": [
-            "aaa1d53b-da26-41d7-92cd-ef874895b45d"
+            "fc850e7f-a652-41bb-acde-4ff1ed20ef7c"
           ],
-          "duration": 405,
+          "duration": 339,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
