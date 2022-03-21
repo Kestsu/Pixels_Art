@@ -1,4 +1,5 @@
 
+/* Paleta de Cores */
 
 .color {
     display: inline-block;
@@ -22,10 +23,12 @@
     background-color: darkviolet;
 }
 
-#color-palette{
+/* Quadro */
 
-}
-#mesa{
-    border: 1px;
-    border-color: black;
+.pixel{
+    background-color: white;
+    border: black solid 1px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
 }
