@@ -11,7 +11,6 @@ let greenyellow = document.querySelector('.greenyellow');
 let aqua = document.querySelector('.aqua');
 let darkviolet = document.querySelector('.darkviolet');
 
-
 function mudaCor() {
   document.addEventListener('click', function (event) {
     if (
@@ -23,26 +22,18 @@ function mudaCor() {
       event.target.classList.contains('pixel') &&
       greenyellow.classList.contains('selected')
     ) {
-      event.target.style.backgroundColor = 'greenyellow'
+      event.target.style.backgroundColor = 'greenyellow';
     } else if (
       event.target.classList.contains('pixel') &&
       aqua.classList.contains('selected')
     ) {
-      event.target.style.backgroundColor = 'aqua'
-    
+      event.target.style.backgroundColor = 'aqua';
     } else if (
       event.target.classList.contains('pixel') &&
-      darkviolet.classList.contains('selected'))
-      {
-      event.target.style.backgroundColor = 'darkviolet'
+      darkviolet.classList.contains('selected')
+    ) {
+      event.target.style.backgroundColor = 'darkviolet';
     }
-  });
+  })
 }
 mudaCor();
-// }, false);
-// function alterarCor(mudar) {
-//   const corSelecionado = document.querySelector('.selected');
-//   mudar.target.classList = corSelecionado.style.backgroundColor;
-// }
-// const quadro = document.getElementById('pixel-board');
-// quadro.addEventListener('click', alterarCor);
