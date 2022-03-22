@@ -27,9 +27,17 @@
 }
 
 /* Quadro */
+
 .pixel {
+  padding: 0px;
+  margin: 0px;
   border: black solid 1px;
-  width: 39px;
-  height: 39px;
   display: inline-block;
+  max-height: 40px;
+  min-height: 40px;
+  max-width: 40px;
+  min-width: 40px;
+}
+
+#pixel-board {
 }

@@ -6,6 +6,9 @@ function mudarSeletor(eventClick) {
 const paletaColors = document.getElementById('color-palette');
 paletaColors.addEventListener('click', mudarSeletor);
 
+
+
+
 let black = document.querySelector('.black');
 let greenyellow = document.querySelector('.greenyellow');
 let aqua = document.querySelector('.aqua');
