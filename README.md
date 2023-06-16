@@ -11,6 +11,6 @@
 
 ## Execução da aplicação localmente
 
-1. Instale as extensão Go Live.
+1. Instale a extensão Go Live.
 
 2. Depois execute o Go Live.
